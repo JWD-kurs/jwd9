@@ -53,7 +53,6 @@ MVC je šablon koji se često koristi u razvoju web aplikacija.
 
 ### Hello world! web aplikacija
 
-* Skinuti Apache Tomcat 7 server sa http://tomcat.apache.org/download-70.cgi
 
 * Otvoriti Eclipse radno okruženje
 
@@ -83,7 +82,6 @@ MVC je šablon koji se često koristi u razvoju web aplikacija.
 
 * Uraditi update projekta (desni klik na projekat -> Maven -> Update project)
 
-* Pokrenuti aplikaciju (desni klik na projekat -> Run as -> Run on server)
 
 ----
 
@@ -91,7 +89,7 @@ MVC je šablon koji se često koristi u razvoju web aplikacija.
 
 * Napraviti folder src/main/java
 
-* Napraviti paket `jwts.wafepa.model`
+* Napraviti paket `jwd.wafepa.model`
 
 * Napraviti klasu `Activity` unutar paketa za modele (polja klase: `Long id`, `String name`)
 
