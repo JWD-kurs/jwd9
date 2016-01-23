@@ -8,21 +8,23 @@
 <title>WAFEPA - Activities</title>
 </head>
 <body>
-	<h1>WAFEPA - Activities</h1>
-	<c:out value="${activitiesCount}"></c:out>
+	<h1>Activities</h1>
+	
 	<table>
-		<tr>
-			<th>ID</th>
-			<th>Name</th>
-			<th>Actions</th>
-		</tr>
+		<thead>
+			<tr>
+				<th>ID</th><th>Name</th><th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
 		<c:forEach items="${activitiesModel}" var="activity">
 			<tr>
-				<td><c:out value="${activity.id}"></c:out></td>
-				<td><c:out value="${activity.name}"></c:out></td>
-				<td></td>
+				<td><c:out value="${activity.id }"></c:out> </td>
+				<td><c:out value="${activity.name }"></c:out></td>
+				<td><a href="/activities/remove/${activity.id }">remove</a></td>
 			</tr>
 		</c:forEach>
+		</tbody>
 	</table>
 </body>
 </html>
