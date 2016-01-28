@@ -2,13 +2,6 @@
 
 ----
 
-> ### Nova podešavanja za bazu
-> Od sada, umesto `jwtsX` koristite `jwd7_X` za konektovanje na bazu (korisničko ime, lozinka, naziv šeme).
-
-
-
-
-----
 
 
 Classical web - server side generated HTML:
