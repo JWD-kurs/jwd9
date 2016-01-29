@@ -18,6 +18,8 @@ public class Activity {
 	@Column(name="name")
 	private String name;
 	
+	public String adminComment;
+	
 	public Activity() {
 		super();
 	}
